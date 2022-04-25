@@ -1,13 +1,9 @@
-
 from youtube_dl import YoutubeDL
-
 import random, logging
-
 from discord.utils import get
-
 import discord
-
 from discord.ext import commands
+from token_2 import TOKEN
 
 
 logger = logging.getLogger('discord')
@@ -160,8 +156,5 @@ async def play(ctx, url):
 
 
 
-
-
-TOKEN = "OTYzNDUxNDQxMzY2ODU5ODU3.YlWSEw.TBu8EW2qKtqanV1eTA8QrFsVXpg"
 #bot.run(TOKEN)
 client.run(TOKEN)
