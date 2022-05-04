@@ -1,3 +1,4 @@
+#необходима ещё библиотека PtNaCl
 from youtube_dl import YoutubeDL
 import random, logging
 from discord.utils import get
